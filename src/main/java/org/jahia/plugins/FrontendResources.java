@@ -37,7 +37,7 @@ import java.util.Map;
 @Mojo(name = "frontend-resources")
 public class FrontendResources extends AbstractMojo {
     public static final String errorFile = "commandErrorFile.txt";
-    public static final String outputFile = "commandOutputFile.json";
+    public static final String outputFile = "js-resources.json";
 
     private static final Logger logger = LoggerFactory.getLogger(FrontendResources.class);
     private static final int timeout = 10000;
